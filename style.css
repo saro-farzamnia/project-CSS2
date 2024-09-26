@@ -1,0 +1,71 @@
+*{
+    overflow: hidden;
+    color: aqua;
+}
+body{
+    background-color: rgb(0, 0, 30);
+    border: 0.3rem solid white;
+    height: 830px;
+}
+.parent{
+    margin-left: 570px;
+    margin-top: 200px;
+}
+#Username{
+    display: block;
+    background-color: rgb(0, 0, 30);
+    border: 2px solid rgb(0, 0, 30);
+    color:white;
+    border-bottom: 1px solid #ffffff;
+    width: 390px;
+}
+#Password{
+    display: block;
+    background-color: rgb(0, 0, 30);
+    border: 2px solid rgb(0, 0, 30);
+    color:white;
+    border-bottom: 1px solid #ffffff;
+    width: 390px;
+}
+.login-box{
+    position: absolute;
+    top: 48%;
+    left: 51%;
+    width: 370px;
+    height: 70px;
+    padding: 30px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 3px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    letter-spacing: 5px;
+}
+.reset-box{
+    position: absolute;
+    top: 57%;
+    left: 38.3%;
+    background-color: rgb(0, 0, 30);
+    border: 2px solid rgb(0, 0, 30);
+    letter-spacing: 10px;
+    border-top: 1px solid aqua;
+    padding-top: 30px;
+    width: 400px;
+}
+h1{
+    position: absolute;
+    font-family: Verdana;
+    font-weight: 100;
+    margin-left: 47%;
+    margin-top: 5%;
+    color: #ffffff;
+}
+.login-box:hover{
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    border-color: aqua;
+}
+.reset-box:hover{
+    color: #ffffff;
+}
